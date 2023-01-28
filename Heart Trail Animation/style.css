@@ -1,0 +1,36 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1513569771920-c9e1d31714af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmxhY2t8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60");
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+span {
+    background-image:
+    url("heart.png");
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    animation:  animate 6s linear;
+    -webkit-animation:  animate 6s linear;
+}
+
+@keyframes animate{
+    0%{
+        transform: translate(-50%,-50%);
+        opacity: 1;
+        filter: hue-rotate(0);
+        -webkit-filter: hue-rotate(0);
+}
+    100%{
+        transform: translate(-50%,-5000%);
+        opacity: 0;
+        filter: hue-rotate(720deg);
+        -webkit-filter: hue-rotate(720deg);
+}  
+}
