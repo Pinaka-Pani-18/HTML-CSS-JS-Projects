@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(191, 0, 201);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgba(255,255,255,.3);
+    padding: 30px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    max-width: 450px;
+    justify-content: center;
+    text-align: center;
+}
+
+.header{
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 10px 0 20px 0;
+}
+
+.input{
+    width: 350px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px 0 15px 0;
+    border: 2px solid rgba(255,255,255,0.4);
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.6);
+}
+
+.info-text{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0 10px 0;
+}
+
+.meaning-container{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.meaning-container p{
+    margin: 5px 0;
+}
+.meaning-container p .title,.meaning{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+
+.audio{
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+
+
+
+
