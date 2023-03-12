@@ -24,6 +24,7 @@ h2 {
 p {
   font-size: small;
   text-align: justify;
+  font-size: 15px;
 }
 
 .btn {
@@ -34,6 +35,7 @@ p {
   border: 2px solid black;
   border-radius: 5px;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .btn:hover {
